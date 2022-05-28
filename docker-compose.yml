@@ -10,10 +10,10 @@ services:
       - ./app:/app
     environment:
       - SECRET_KEY=devsecretkey
-      - DEBUG-1
+      - DEBUG=1
 
   db:
-    image: postgres:12-alpine
+    image: postgres:13-alpine
     environment:
       - POSTGRES_DB=devdb
       - POSTGRESS_USER
