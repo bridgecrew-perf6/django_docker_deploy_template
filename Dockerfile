@@ -20,6 +20,7 @@ RUN python3 -m venv /py && \
     apk del .tmp-deps && \
     adduser --disabled-password --no-create-home app
 
+
 ENV PATH="/py/bin:$PATH"
 
 USER app
