@@ -7,7 +7,6 @@ COPY ./requirements.txt /requirements.txt
 COPY ./app /app
 
 WORKDIR /app
-
 EXPOSE 8000
 
 RUN apk add -u zlib-dev jpeg-dev gcc musl-dev
