@@ -5,3 +5,7 @@
 #2 docker-compose run --rm app sh -c "django-admin startproject app ."
 
 #3 docker-compose run --rm app sh -c "python3 manage.py startapp core"
+
+
+
+https://www.youtube.com/watch?v=mScd-Pc_pX0
